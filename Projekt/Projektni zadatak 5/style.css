@@ -1,0 +1,124 @@
+body, html {
+	font-family: "Courier New", Courier, monospace;
+	margin: 0;
+	font-size: 16px;
+}
+header {
+	display: block;
+	width: 100%;
+}
+.eye {
+	background-image: url("img/banner.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 500px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: lightgray;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	color: red;
+	background-color: grey;
+}
+h1,h2 {
+	margin: 0.5em;
+	font-size: 3em;
+}
+h2 {
+	font-size: 2em;
+	color: black;
+}
+main a {
+	color: darkblue;
+	text-decoration: none;
+}
+main a:hover {
+	color: darkmagenta;
+	text-decoration: underline;
+}
+p {
+	margin: 1em;
+	line-height: 1.4em;
+	letter-spacing: 1px;
+}
+figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 40%;
+	border: 3px solid black;
+}
+figcaption {
+	font-size: 90%;
+}
+img {
+	width: 100%;
+}
+footer {
+	background-color: darkgreen;
+	padding: 0.1em;
+	clear: both;
+}
+footer p {
+	color: white;
+	text-align: center;
+	margin: 0.5em;
+}
+footer img {
+	width: 20px;
+}
+hr {
+	margin: 1em;
+	border: 1px dotted darkgreen;
+	clear: both;
+}
+.news img {
+	width: 15%;
+	float: left;
+	padding: 0.5em;
+	margin: 0 1em 0.5em 0.5em;
+}
+.news h2 {
+	margin: 0.5em 0.7em;
+	font-size: 1.5em;
+	color: #27318b;
+}
+.news hr {
+	margin: 1em;
+	border: 1px dotted darkgreen;
+	clear: both;
+}
+.news time {
+	font-size: 90%;
+	font-style: italic;
+}
+@media screen and (max-width: 900px) {
+	figure {
+		width: 90%;
+		margin: 1em;
+	}
+    .news img {
+		width: 95%;
+		padding: 0.5em;
+		margin: 0 1em 0.5em 0.5em;
+	}
+	.news time {
+		margin: 0 0 0 1em;
+	}
+}
